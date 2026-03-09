@@ -136,9 +136,9 @@ int main() {
 
     if (D == 0) {
         fprintf(sol_file, "Determinant is 0. No unique solution.\n");
-        if (global_n < 10) printf("Determinant is 0. No unique solution.\n");
+        if (global_n <= 10) printf("Determinant is 0. No unique solution.\n");
     } else {
-        if (global_n < 10) {
+        if (global_n <= 10) {
             fprintf(sol_file, "\n--- Solutions ---\n");
             printf("\n--- Solutions ---\n");
             fprintf(sol_file, "Determinant : %.4f ",D);
