@@ -34,7 +34,7 @@ This version compares a standard Thread Pool (where threads = # of hardware CPUs
 Navigate to the folder, compile, and execute:
 
 ```bash
-cd human_code
+cd Our Code
 gcc main.c -lpthread -lm -o cramer_exec
 ./cramer_exec
 ```
@@ -46,8 +46,8 @@ This version tests the same concepts but uses lock-free C11 atomics. We compile 
 Navigate to the folder, compile, and execute:
 
 ```bash
-cd ../ai_code
-gcc -O3 ai_main.c -lpthread -lm -o ai_exec
+cd ../AI CODE
+gcc -O3 main.c -lpthread -lm -o ai_exec
 ./ai_exec
 ```
 When prompted, enter the number of equations.
