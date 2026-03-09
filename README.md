@@ -23,7 +23,7 @@ To compile and run this project, your system must have:
 Open your terminal and clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/MANDRITA-MAJI/CSC403-CRAMERS-RULE-USING-THREADS.git](https://github.com/MANDRITA-MAJI/CSC403-CRAMERS-RULE-USING-THREADS.git)
+git clone https://github.com/MANDRITA-MAJI/CSC403-CRAMERS-RULE-USING-THREADS.git
 cd CSC403-CRAMERS-RULE-USING-THREADS
 
 ```
