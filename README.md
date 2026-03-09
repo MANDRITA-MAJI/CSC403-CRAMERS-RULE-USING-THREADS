@@ -23,10 +23,10 @@ To compile and run this project, your system must have:
 Open your terminal and clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/iamchitta07/YOUR-REPO-NAME.git](https://github.com/iamchitta07/YOUR-REPO-NAME.git)
-cd YOUR-REPO-NAME
+git clone [https://github.com/MANDRITA-MAJI/CSC403-CRAMERS-RULE-USING-THREADS.git](https://github.com/MANDRITA-MAJI/CSC403-CRAMERS-RULE-USING-THREADS.git)
+cd CSC403-CRAMERS-RULE-USING-THREADS
+
 ```
-*(Note: Replace `YOUR-REPO-NAME` with the actual name of your repository before running)*
 
 ### Step 2: Running the Baseline (Human Code)
 This version compares a standard Thread Pool (where threads = # of hardware CPUs) against a Thread-Per-Equation approach to demonstrate OS context-switching overhead.
@@ -58,7 +58,7 @@ When prompted, enter the number of equations.
 
 The program automatically detects your hardware threads and Linux username. After execution, it generates two text files in the active directory:
 
-1. **`equation.txt`**: Contains the randomly generated system of equations. *(Note: To prevent file bloat, equations are only written if N <= 10)*.
+1. **`equation.txt`**: Contains the randomly generated system of equations. 
 2. **`solution.txt`**: An appended logbook of all your execution runs. It stores your username, hardware threads, execution times for the different OS scheduling approaches, and the final calculated variables.
 
 To quickly view your results without leaving the terminal, run:
