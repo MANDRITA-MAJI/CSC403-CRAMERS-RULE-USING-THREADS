@@ -6,7 +6,7 @@ This repository contains an Operating Systems project demonstrating multithreade
 The project is split into two implementations to demonstrate the performance differences between mutex locking and lock-free atomic operations.
 
 ## 📂 Repository Structure
-* `/human_code` - The baseline implementation using a Thread Pool controlled by a standard `pthread_mutex_t` lock.
+* `/Our_Code` - The baseline implementation using a Thread Pool controlled by a standard `pthread_mutex_t` lock.
 * `/ai_code` - An optimized implementation replacing the mutex with C11 lock-free atomics (`stdatomic.h`) to eliminate queue contention.
 
 ## ⚙️ Prerequisites
